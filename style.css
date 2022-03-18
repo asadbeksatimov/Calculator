@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,106,37,1) 100%);
+    font-family: 'Alata', sans-serif;
+}
+
+label {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #032207 74%);
+    border-radius: 45px;
+    border: 3px solid rgb(4, 56, 6) ;
+   }
+.container:hover{
+    transition: box-shadow 0.8s, transform 1s;
+    box-shadow: rgba(14, 51, 9, 0.918) 0px 10px 20px 5px;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    color: white;
+    font-size: 24px;
+}
+
+.containerButtons {
+    display: flex;
+    color: rgb(148, 148, 148);
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+input::placeholder {
+    color: #8a8a8a;
+    padding-left: 10px;
+  }
+.containerButton {
+    height: 60px;
+    width: 220px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 3px solid rgb(5, 90, 19);
+}
+
+.calculButtons {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.calculbutton {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 70px;
+    width: 70px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: #63d471;
+background-image: linear-gradient(310deg, #10801d 5%, #053819 150%);
+    transform: scale(1);
+    box-shadow: 0 0 15px 7px rgba(8, 28, 44, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.calculbutton:hover {
+ 
+    transform: scale(1.2);
+color: white;
+    box-shadow: rgba(7, 32, 4, 0.918) 0px 10px 50px 2px;
+    transition: box-shadow 0.5s, transform 0.5s;
+    background: rgb(0,87,3);
+background: radial-gradient(circle, rgba(0,87,3,1) 0%, rgb(3, 63, 6) 100% );
+border: 2px solid rgb(14, 43, 5); 
+}
+.conclusion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+    font-size: 26px;
+}
+
